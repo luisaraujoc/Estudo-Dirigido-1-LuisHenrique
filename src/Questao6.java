@@ -4,6 +4,11 @@ public class Questao6 {
     public static void main(String[] args){
         int []C = gerarVetor(50);
         int maior = 0;
+
+        for(int i = 0; i < C.length; i++){
+            System.out.println("Elemento "+i+": "+C[i]+";");
+        }
+
         for(int i = 0; i < C.length; i++){
             if(i!=0){
                 if(C[i]>C[i-1]){
