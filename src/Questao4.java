@@ -32,5 +32,7 @@ public class Questao4 {
                 System.out.println("Divisão:" + divi);
     	        break;
         }
+
+        number.close();
     }
 }

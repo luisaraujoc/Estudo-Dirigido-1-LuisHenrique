@@ -18,5 +18,7 @@ public class Questao3{
         }else{
             System.out.println("Os números escolhidos não são divisores");
         }
+
+        number.close();
     }
 }

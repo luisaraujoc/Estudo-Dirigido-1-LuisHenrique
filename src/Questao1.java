@@ -23,5 +23,8 @@ public class Questao1 {
             System.out.println(num2);
             System.out.println("<- Este é o maior número!");
         }
+
+
+        keyboard.close();
     }
 }

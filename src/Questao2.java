@@ -22,5 +22,7 @@ public class Questao2 {
         }else{
             System.out.println("Média é menor que 7.\nDiscente reprovado.");
         };
+
+        nota.close();
     }
 }
