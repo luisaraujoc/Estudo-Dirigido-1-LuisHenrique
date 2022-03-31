@@ -17,7 +17,7 @@ public class Questao2 {
 
         float calculoMedia = ((notaprova1*3)+(notaprova2*3)+(notatrabalho*1))/7;
 
-        if(calculoMedia>7){
+        if(calculoMedia>=7){
             System.out.println("Média é maior que 7.\nDiscente aprovado.");
         }else{
             System.out.println("Média é menor que 7.\nDiscente reprovado.");
