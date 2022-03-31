@@ -24,12 +24,15 @@ public class Questao6 {
     }
      
     // preencher vetor
+    //  Okay, eu criei esse método pra poder sortear 50 número automaticamente. Poupar trabalho.
+    //  Ela recebe a função de geral um vetor de 50 números e usando da biblioteca Random, sorteio
+    //números aleatórios para prencher esse vetor.
     private static int[] gerarVetor(int tam){
         int []vetor = new int[50];
         Random gerador = new Random();
 
         for(int i = 0; i < vetor.length; i++){
-            vetor[i] = gerador.nextInt(100 +1);
+            vetor[i] = gerador.nextInt(100)+1;
         }
         
         return vetor;
