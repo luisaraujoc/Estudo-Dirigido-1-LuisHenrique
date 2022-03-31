@@ -22,6 +22,8 @@ public class Questao7 {
             for (int j = 0; j < array[i].length; j++) {
                 if (array[i][j] == valor) {
                     System.out.println("Valor encontrado na posição: [" + i + "][" + j + "]");
+                }else{
+                    System.out.println("Valor não encontrado!");
                 }
             }
         }
